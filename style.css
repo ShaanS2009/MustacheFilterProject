@@ -1,0 +1,14 @@
+.btn-primary{
+    font-size: 25px;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+   0%{box-shadow: 1px 1px 38px rgb(56, 3, 3);}
+   25%{box-shadow: 1px 1px 38px rgb(21, 5, 58);}
+   50%{box-shadow: 1px 1px 38px rgb(131, 139, 17);}
+   100%{box-shadow: 1px 1px 38px rgb(57, 98, 10);}
+}
